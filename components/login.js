@@ -11,9 +11,9 @@ function Login() {
     
     <Image 
     className=' object-cover rounded-full'
-    src='https://links.papareact.com/3pi' height={200} width={200}/>
+    src='/images/akeo.png' height={200} width={200}/>
        
-       <button onClick={authenticate} className='bg-yellow-500 rounded-lg p-5 font-bold animate-pulse'>Login to the metaverse</button>
+       <button onClick={authenticate} className='bg-slate-600  rounded-lg p-5 font-bold animate-pulse text-white '>Login to the metaverse</button>
     </div>
     <div className='w-full h-screen'>
         {/* bg image */}
